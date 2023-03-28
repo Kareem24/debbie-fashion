@@ -1,0 +1,34 @@
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-none {
+  display: none;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.btn {
+  min-width: 150px;
+  height: 40px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.btn-dark {
+  background: #f6839c;
+}
+
+.btn-light {
+  background: transparent;
+  border: 2px solid #f6839c;
+}

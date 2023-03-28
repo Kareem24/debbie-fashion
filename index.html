@@ -3,8 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get your outfit design that suite your body" />
+    <meta property="og:title" content="Debbie's Fashion House" />
+    <meta property="og:description" content="checkout my new Style" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allura&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <main class="hero-section">
+      <header class="header d-flex">
+        <nav class="navbar d-flex center">
+          <a href="#" class="logo">Debbie's Fashion</a>
+          <button class="hamburger" type="button" aria-label="menu button" id="hamburger">
+            <i class="bx bx-menu"></i>
+          </button>
+          <div class="links d-flex d-none">
+            <ul class="nav-links d-flex">
+              <li class="nav-link"><a href="#portfolio">portfolio</a></li>
+              <li class="nav-link"><a href="#about">about</a></li>
+              <li class="nav-link"><a href="#contact">contact</a></li>
+            </ul>
+            <button type="button" class="close-btn" id="close-btn" aria-label="close button">
+              <i class="bx bx-x"></i>
+            </button>
+          </div>
+        </nav>
+      </header>
+      <div class="images-section">
+        <div class="images center">
+          <img
+            src="images/070f790c2ce7481e92005882b60f87f7.jpg"
+            alt="london style"
+            class="top-image"
+          />
+          <div class="btns d-flex">
+            <button type="button" class="d-flex btn btn-dark">
+              <span class="text">learn more</span>
+              <span class="icon d-flex"><i class="bx bx-down-arrow-alt"></i></span>
+            </button>
+            <button type="button" class="d-flex btn btn-light">
+              <span class="text">contact us</span>
+              <span class="icon d-flex"><i class="bx bx-envelope"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

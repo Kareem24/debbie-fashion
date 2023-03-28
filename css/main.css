@@ -1,0 +1,70 @@
+.hero-section,
+.images-section {
+  width: 100%;
+  height: 100%;
+  background: #f6839c;
+}
+
+.hero-section .header {
+  background-color: #f0b5b3;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.navbar {
+  width: 80%;
+}
+
+.navbar .logo {
+  /* color: #f6839c; */
+  color: #fe64a3;
+  font-weight: 600;
+  font-size: 2rem;
+
+  /* font-family: 'Aguafina Script', cursive; */
+  font-family: 'Allura', cursive;
+}
+
+.images-section .images {
+  width: 80%;
+  height: calc(100% - 70px);
+  padding: 2rem 0;
+  position: relative;
+}
+
+.images .top-image {
+  height: 70%;
+  border-radius: 30px;
+}
+
+.images .btns {
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+  padding: 0 10px;
+}
+
+.btns .btn {
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.btn .icon {
+  font-size: 1.3rem;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+}
+
+.btn-light .icon {
+  background: #f6839c;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.btn-dark .icon {
+  background: #fff;
+  border-radius: 50%;
+  color: #000;
+}
